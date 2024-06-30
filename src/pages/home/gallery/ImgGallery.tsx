@@ -35,7 +35,7 @@ const ImgGallery = () => {
         <Card className="py-4 order-2 md:order-1">
           <CardBody className="overflow-visible">
             <img
-              src="public/200.gif"
+              src="/200.gif"
               className="w-full h-[450px] object-cover rounded-lg"
               alt="imagenogif"
             />
