@@ -5,23 +5,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #0c0c0c;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #0c0c0c; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.bg-banner {
+/* .bg-banner {
   background-image: url(./assets/fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
+} */
+
+.canvas {
+  cursor: none;
+  pointer-events: none;
+}
+.bg-gradientbanner {
+  background-image: url(assets/detalle1.png), url(assets/detalle3.svg),
+    url(assets/detalle2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, right top, center;
+}
+.bg-banner2 {
+  background-image: url(assets/detalle1.png), url(assets/detalle3.svg),
+    url(assets/detalle2.png), url(assets/fondo2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top, right top, center;
 }
