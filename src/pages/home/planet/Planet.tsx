@@ -15,7 +15,7 @@ const Planet = () => {
               </span>
             </h1>
             <h2 className="text-4xl font-bold capitalize">
-              una plataforma mas interativa
+              una plataforma mas interactiva
             </h2>
             <p className="text-lg italic font-bodyFont font-semibold textScroll">
               Satellites serve as humanity's vigilant guardians, silently
@@ -37,7 +37,7 @@ const Planet = () => {
             </p>
           </div>
         </div>
-        <div className="hidden z-10 w-full lg:w-1/2 md:flex justify-center items-center h-[400px] md:h-[600px] order-2">
+        <div className="z-10 w-full lg:w-1/2 md:flex justify-center items-center h-[400px] md:h-[600px] order-2">
           <Tierra />
         </div>
       </div>
